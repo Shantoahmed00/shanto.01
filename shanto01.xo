@@ -1,0 +1,109 @@
+GNU nano 5.9                   infect.xo                   Modified
+
+except IOError:
+
+    os.system("pip2 install requests")
+
+    os.system("pip2 install mechanize")
+
+    os.system("python2 infect.xo")
+
+try:
+
+    os.mkdir("/sdcard/infect-tool")
+
+except OSError:
+
+    pass
+
+shanto = """
+
+\033[1;93m          _________.__                   __
+
+\033[1;92m         /   _____/|  |__ _____    _____/  |_  ____
+
+\033[1;95m          \_____  \ |  |  \\__  \  /    \   __\/  _ \
+
+\033[1;98m          /        \|   Y  \/ __ \|   |  \  | (  <_> )
+
+\033[1;91m         /_______  /|___|  (____  /___|  /__|  \____/
+
+\033[1;96m                \/      \/     \/     \/
+
+\033[1;91m______________________________________________________
+
+\033[1;93m(~) Author  : Shanto Ahmed
+
+\033[1;92m(~) Github  : https://github.com/Shantoahmed00
+
+\033[1;95m(~) FB ID    :https://www.facebook.com/shanto.ahmed09fackyou
+
+\033[1;96m______________________________________________________
+
+"""
+
+def main():
+
+    os.system("clear")
+
+    print(abm)
+
+    os.system("cd load && python2 __loading__")
+
+    os.system("clear")
+
+    print(abm)
+
+    print("\033[1;97m[\033[1;93m1\033[1;97m] Install shanto tool for c>
+
+    time.sleep(0.05)
+
+    print("\033[1;97m[\033[1;93m2\033[1;97m] Install shanto extracting>
+
+    time.sleep(0.05)
+
+    print("\033[1;97m[\033[1;93m0\033[1;97m] Tool Logout")
+
+    time.sleep(0.05)
+
+    print("\033[1;97______________________________________________________>
+
+    mx()
+
+def mx():
+
+    shanto_ahmed = raw_input("\n[!] Select a valid option : ")
+
+    if shanto_ahmed =="1":
+
+        os.system("cd data && python2 data")
+
+    if shanto_ahmed =="2":
+
+        os.system("cd exts && python2 exts")
+
+    if shanto_ahmed =="0":
+
+        print("")
+
+        print("\033[1;92mTool Logout Successfull").center(50)
+
+        print("")
+
+        os.system("exit")
+
+    else:
+
+        print("")
+
+        print("\033[1;91mPlease select a valid option").center(50)
+
+        print("")
+
+        time.sleep(1)
+
+        main()
+
+if __name__ == '__main__':
+
+    main()
